@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Console {
-    private static Scanner scanner = new Scanner(System.in);
+    private final static Scanner scanner = new Scanner(System.in);
 
     public static double readValue(String parameter, double min, double max) {
         System.out.print(parameter + ": ");
